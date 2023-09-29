@@ -16,19 +16,20 @@ driver.implicitly_wait(2)
 driver.get("https://fantasy.espn.com/football/leaders")
 
 '''All weeks in the dropdown meny'''
-# for i in range(3,7):
-#     dropdown = driver.find_element(By.XPATH, f'//*[@id="fitt-analytics"]/div/div[5]/div[2]/div[2]/div[1]/div/div[2]/div[5]/div/div[2]/select/option[{i}]')
-#     dropdown.click()
-#     time.sleep(1)
-'''All positions in radion buttons'''
-# for i in range(2,9):
-    #   if i == 6:
-        # continue
-#     label = driver.find_element(By.XPATH, f'//*[@id="filterSlotIds"]/label[i]')
-#     label.click()
-#     time.sleep(1)
-    
+for i in range(3,7):
+    dropdown = driver.find_element(By.XPATH, f'//*[@id="fitt-analytics"]/div/div[5]/div[2]/div[2]/div[1]/div/div[2]/div[5]/div/div[2]/select/option[{i}]')
+    dropdown.click()
+    time.sleep(1)
 
+'''All positions in radion buttons'''
+for i in range(2,9):
+    if i == 6:
+        continue
+    label = driver.find_element(By.XPATH, f'//*[@id="filterSlotIds"]/label[{i}]')
+    label.click()
+    time.sleep(1)
+    
+'''Go to next page until at the end for a given position and week'''
 while True:
     try:
         # Locate and click the "Next" button
