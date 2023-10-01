@@ -1,49 +1,45 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait, Select
+from selenium.webdriver.support.ui import  Select
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.common.action_chains import ActionChains
+
 import pandas as pd
 import numpy as np
 import time
 
+position = {'QB': 2, 'RB': 3, 'WR': 4, 'TE': 5, 'D/ST': 7, 'K': 8}
+week = {"NFL Week 1": 3, "NFL Week 2": 4, "NFL Week 3": 5, "NFL Week 4": 6}
+
 driver_path = 'C:/Users/Daymo/GithubProjects/Selenium-Fantasy-Football/drivers/chromedriver-win64'  
 driver = webdriver.Chrome()
-driver.implicitly_wait(2)
 driver.get("https://fantasy.espn.com/football/leaders")
 
 # Initialize an empty list to store the data
 all_data = []
-
-# Loop through weeks in the dropdown menu
-for week in range(3, 7):
-    dropdown = driver.find_element(By.XPATH, f'//*[@id="fitt-analytics"]/div/div[5]/div[2]/div[2]/div[1]/div/div[2]/div[5]/div/div[2]/select/option[{week}]')
+time.sleep(4)
+for key, value in week.items():
+    dropdown = driver.find_element(By.XPATH, f'//*[@id="fitt-analytics"]/div/div[5]/div[2]/div[2]/div[1]/div/div[2]/div[5]/div/div[2]/select/option[{value}]')
+    print(f'Week: {key}')
     dropdown.click()
-    time.sleep(1)
+    time.sleep(3)
 
     # Loop through positions
-    for position in range(2, 9):
-        if position == 6:
-            continue
-        label = driver.find_element(By.XPATH, f'//*[@id="filterSlotIds"]/label[{position}]')
+    for key, value in position.items():
+        print(f'Week: {key}')
+        label = driver.find_element(By.XPATH, f'//*[@id="filterSlotIds"]/label[{value}]')
         label.click()
-        time.sleep(1)
+        time.sleep(5)
 
-        while True:
-            try:
-                # rows = driver.find_elements(By.XPATH, '//your-xpath-for-rows')
-                
-                # for row in rows:
-                    # data = row.text.split('\n')  # Split the row text into data points
-                    # all_data.append(data)  # Add the data to the list
-                
-                # Click the "Next" button to go to the next page
-                button = driver.find_element(By.XPATH, f'//*[@id="fitt-analytics"]/div/div[5]/div[2]/div[3]/div/div/div/div/nav/button[2]')
+        try: 
+            button = driver.find_element(By.XPATH, f'//*[@id="fitt-analytics"]/div/div[5]/div[2]/div[3]/div/div/div/div/nav/button[2]')
+            while button.is_enabled():
                 button.click()
-                time.sleep(2)
-            except:
-                break
+                print(f' Next Page Button clicked: {i}')
+                i+=1
+                time.sleep(5)
+        except:
+            pass
+            print('Button not found')
 
-# Convert the collected data into a Pandas DataFrame
-df = pd.DataFrame(all_data)
-df.sa
+
+        
