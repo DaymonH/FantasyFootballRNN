@@ -1,2 +1,6 @@
 WK_1-6.csv
 WK_1-7.csv
+WK_1-8.csv
+label_encoders1-8.pkl
+xgboost_model.model
+xgboost_model1-8.pkl
