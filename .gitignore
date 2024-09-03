@@ -4,3 +4,6 @@ WK_1-8.csv
 label_encoders1-8.pkl
 xgboost_model.model
 xgboost_model1-8.pkl
+
+pbpdata/
+newData/
