@@ -1,125 +1,86 @@
-# Quarterbacks #
-----------------
+#### Quarterbacks ####
+----------------------------
 TopRBInjured
 NumRBsInjured
 TopReceiverInjured
 NumReceiversInjured
 HurtButPlaying
 NumOffensiveLinemenInjured
-Completion % 3 games, This season, Last season
-Yards per Completion 3 games, This season, Last season
-PassTd 3 games, This season, Last season
-RushAttempts 3 games, This season, Last season
-RushTd 3 games, This season, Last season
-Interceptions Last 3 games, This season, Last season
-Pressure Rate 3 games, This season, Last season
-Time to Throw 3 games, This season, Last season
-Play Action % 3 games, This season, Last season
-Deep Ball Attempts 3 games, This season, Last season
-Red Zone Pass Attempts 3 games, This season, Last season
+Completion % Last 3 games / Last 18 games
+Yards per Completion Last 3 games / Last 18 games
+PassTd Last 3 games / Last 18 games
+RushAttempts Last 3 games / Last 18 games
+RushTd Last 3 games / Last 18 games
+Interceptions Last Last 3 games / Last 18 games
+Pressure Rate Last 3 games / Last 18 games
+Time to Throw Last 3 games / Last 18 games
+Play Action % Last 3 games / Last 18 games
+Deep Ball Attempts Last 3 games / Last 18 games
+Red Zone Pass Attempts Last 3 games / Last 18 games
 
-# Tight Ends #
---------------
+#### Tight Ends ####
+----------------------------
 TopQBInjured
 TopRBInjured
 TopWRInjured
 BackupInjured
-Receptions Last 3 games
-Receptions This season
-Receptions Last season
-Yards Last 3 games
-Yards This season
-Yards Last season
-Targets Last 3 games
-Targets This season
-Targets Last season
-Yards after Catch Last 3 games
-Yards after Catch This season
-Yards after Catch Last season
-RecTd Last 3 games
-RecTd This season
-RecTd Last season
+Receptions Last 3 games / Last 18 games
+Yards Last 3 games / Last 18 games
+Targets Last 3 games / Last 18 games
+Yards after Catch Last 3 games / Last 18 games
+RecTd Last 3 games / Last 18 games
 
-# Receivers #
--------------
+#### Receivers ####
+----------------------------
 TopQBInjured
 TopRBInjured
 TopTEInjured
 BackupInjured
-Receptions Last 3 games
-Receptions This season
-Receptions Last season
-Yards Last 3 games
-Yards This season
-Yards Last season
-Targets Last 3 games
-Targets This season
-Targets Last season
-Yards after Catch Last 3 games
-Yards after Catch This season
-Yards after Catch Last season
-RecTd Last 3 games
-RecTd This season
-RecTd Last season
+Receptions Last 3 games / Last 18 games
+Yards Last 3 games / Last 18 games
+Targets Last 3 games / Last 18 games
+Yards after Catch Last 3 games / Last 18 games
+RecTd Last 3 games / Last 18 games
 
-# Running Backs #
------------------
+#### Running Backs ####
+----------------------------
 TopQBInjured
 TopTEInjured
 TopWRInjured
 BackupInjured
-Receptions Last 3 games
-Receptions This season
-Receptions Last season
-Yards Last 3 games
-Yards This season
-Yards Last season
-Targets Last 3 games
-Targets This season
-Targets Last season
-Yards after Catch Last 3 games
-Yards after Catch This season
-Yards after Catch Last season
-RecTd Last 3 games
-RecTd This season
-RecTd Last season
-RushAttempts Last 3 games
-RushAttempts This season
-RushAttempts Last season
-RushTd Last 3 games
-RushTd This season
-RushTd Last season
+Receptions Last 3 games / Last 18 games
+Yards Last 3 games / Last 18 games
+Targets Last 3 games / Last 18 games
+RushYards after Catch Last 3 games / Last 18 games
+RecYards after Catch Last 3 games / Last 18 games
 
-# All #
------------------
+RecTd Last 3 games / Last 18 games
+RushAttempts Last 3 games / Last 18 games
+RushTd Last 3 games / Last 18 games
+
+#### All ####
+----------------------------
 Playing Against
-Home
+PlayingAtHome
 
-Offense Run/Pass Ratio this season
-Offense Run/Pass Ratio Last 3 games
-Offense Run/Pass Ratio Last season
-Defense Rank
-Defense Rush Rank
-Defense Pass Rank
-Defense Pass Yards Per Attempt 3 games
-Defense Pass Yards Per Attempt This season
-Defense Pass Yards Per Attempt Last season
-Defense Rush Yards Per Attempt 3 games
-Defense Rush Yards Per Attempt This season
-Defense Rush Yards Per Attempt Last season
-Defense Plays Allowed 3 games
-Defense Plays Allowed This season
-Defense Plays Allowed Last season
-Defense Blitz % 3 games
-Defense Blitz % This season
-Defense Blitz % Last season
-Defense Sacks 3 games
-Defense Sacks This season
-Defense Sacks Last season
-Defense Interceptions 3 games
-Defense Interceptions This season
-Defense Interceptions Last season
+Offense Run/Pass Ratio Last 3 games / Last 18 games
+Snap Count % Last 3 games / Last 18 games
 
-Number of Defensive players injured
-Snap Count Last 3 games
-Snap Count This season
+Defense Rank ( from yards allowed per drive) Last 3 games / Last 18 games
+Defense Rush Rank ( from pass yards allowed per drive) Last 3 games / Last 18 games
+Defense Pass Rank ( from rush yards allowed per drive) Last 3 games / Last 18 games
+
+Defense Pass Yards Per Attempt Last 3 games / Last 18 games
+Defense Rush Yards Per Attempt Last 3 games / Last 18 games
+Defense Plays Allowed Last 3 games / Last 18 games
+
+
+Defense Sacks Last 3 games / Last 18 games
+Defense Interceptions Last 3 games / Last 18 games
+
+
+--depth chart
+Defense Number of players injured
+
+-- from advstats
+Defense Blitz % Last 3 games / Last 18 games
