@@ -1,10 +1,11 @@
 #### Quarterbacks ####
-----------------------------
+---------------------------------------------------------------------
 TopRBInjured
 NumRBsInjured
 TopReceiverInjured
 NumReceiversInjured
 HurtButPlaying
+
 NumOffensiveLinemenInjured
 Completion % Last 3 games / Last 18 games
 Yards per Completion Last 3 games / Last 18 games
@@ -19,11 +20,12 @@ Deep Ball Attempts Last 3 games / Last 18 games
 Red Zone Pass Attempts Last 3 games / Last 18 games
 
 #### Tight Ends ####
-----------------------------
+---------------------------------------------------------------------
 TopQBInjured
 TopRBInjured
 TopWRInjured
 BackupInjured
+
 Receptions Last 3 games / Last 18 games
 Yards Last 3 games / Last 18 games
 Targets Last 3 games / Last 18 games
@@ -31,11 +33,13 @@ Yards after Catch Last 3 games / Last 18 games
 RecTd Last 3 games / Last 18 games
 
 #### Receivers ####
-----------------------------
+---------------------------------------------------------------------
 TopQBInjured
 TopRBInjured
 TopTEInjured
+NumOtherWrInjured
 BackupInjured
+
 Receptions Last 3 games / Last 18 games
 Yards Last 3 games / Last 18 games
 Targets Last 3 games / Last 18 games
@@ -43,11 +47,12 @@ Yards after Catch Last 3 games / Last 18 games
 RecTd Last 3 games / Last 18 games
 
 #### Running Backs ####
-----------------------------
+---------------------------------------------------------------------
 TopQBInjured
 TopTEInjured
 TopWRInjured
 BackupInjured
+
 Receptions Last 3 games / Last 18 games
 Yards Last 3 games / Last 18 games
 Targets Last 3 games / Last 18 games
@@ -58,8 +63,10 @@ RecTd Last 3 games / Last 18 games
 RushAttempts Last 3 games / Last 18 games
 RushTd Last 3 games / Last 18 games
 
+
+
 #### All ####
-----------------------------
+---------------------------------------------------------------------
 Playing Against
 PlayingAtHome
 
