@@ -26,6 +26,13 @@ TO_DROP = [
     "total_away_comp_yac_wpa", "total_home_raw_air_wpa", "total_away_raw_air_wpa", 
     "total_home_raw_yac_wpa", "total_away_raw_yac_wpa"
 ]
+
+
+import nfl_data_py as nfl
+
+# pbp24 = nfl.import_pbp_data(years=[2024])
+# pbp24.to_csv("newData/pbp/play_by_play_2024.csv", index=False)
+
 import pandas as pd
 pd.set_option('display.max_columns', None)
 pd.set_option('display.max_rows', None) 
@@ -38,6 +45,14 @@ df = df[(df['play_type'] != 'no_play') &
             (df['play_type'] != 'extra_point') &
              (df['season_type'] == 'REG')
              ].reset_index(drop=True)
+
+
+
+
+
+
+
+
 
 # Get the top 15 receivers by total receiving yards
 top_receivers = df.groupby(['receiver_player_id', 'receiver_player_name'])['receiving_yards'].sum()

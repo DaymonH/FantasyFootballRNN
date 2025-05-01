@@ -40,11 +40,15 @@ TopTEInjured
 NumOtherWrInjured
 BackupInjured
 
-Receptions Last 3 games / Last 18 games
-Yards Last 3 games / Last 18 games
-Targets Last 3 games / Last 18 games
-Yards after Catch Last 3 games / Last 18 games
-RecTd Last 3 games / Last 18 games
+Targets - Last 3/18 games,Δ last 3/18 games 
+TargetShare% - Last 3/18 games,Δ last 3/18 games 
+Receptions Per Game Last 3/18 games,Δ last 3/18 games 
+AirYards Per Game Last 3/18 games,Δ last 3/18 games 
+Yards after Catch Game Last 3/18 games,Δ last 3/18 games 
+RecTd Per Game Last 3/18 games,Δ last 3/18 games 
+
+Games Played In Last 3/18 Weeks
+
 
 #### Running Backs ####
 ---------------------------------------------------------------------
